@@ -1,0 +1,188 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    
+    
+}
+#spam {
+    color: #FFFFFF;
+    
+}
+#div1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFCD9E;
+    height: 65vh;
+    width: 100vw;
+    justify-content:space-evenly;
+    align-items: center;
+    overflow: hidden;
+
+    
+}
+
+#div2 {
+    background-color: #282828;
+    height: 35vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:#FFFFFF;
+}
+
+#head {
+    
+    flex-wrap: wrap;
+    width: fit-content;
+    flex-wrap: wrap;
+    
+    margin-bottom: 0.3em;
+    padding-left: 50px;
+    
+}
+ 
+
+#img{
+  width: 31vw;
+}
+
+ul{
+    display: inline;
+    list-style-type: none;
+    margin: auto;
+    font-size: 0.8em;
+    
+}
+
+li {
+    padding: 6px 40px 6px 0px;
+
+}
+
+a{
+    color:#FFFFFF;
+    text-decoration:none;
+
+}
+
+#li1{
+    padding-right: 60px;
+}
+#li2{
+    text-align: right;
+}
+
+input{
+    border: 4px solid #000000;
+    padding: 10px;
+    padding-left: 14px;
+    border-radius: 8px;
+    width: 18vw;
+    font-size: 0.8em;
+}
+
+button {
+    color:  #FFFFFF;
+    background-color: #282828;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 0.8em;
+    margin: 16px;
+}
+
+
+#spam{
+    text-align: center;
+    width: 19.5vw;
+    font-size: 0.6em;
+    
+}
+
+h1{
+    font-size: 1.5em;
+    line-height: 1.4em;
+    margin-bottom: 0.5em;
+}
+
+h3{
+    font-size: 0.8em;
+    margin-top: 1.3em;
+}
+
+p{
+    font-size: 0.8em;
+    line-height: 1.4em;
+    margin: 0px;
+    margin-bottom: 0.4em;
+ }
+
+ ul img {
+    margin-left: 10px;
+ }
+
+ /* practice only*/
+
+ /* @media only screen and (max-width: 600px){
+    body{
+        height: auto;
+        overflow: auto;
+    }
+
+    #div1{
+        height: auto;
+    }
+
+    #div2{
+        height: auto;
+        
+    }
+
+    #head{
+        width: 50vw
+    }
+    p, h3, input, button, ul{
+       font-size: 0.8rem; ;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    input{
+        width: 19vw;
+        font-size: 0.7rem;
+        padding: 0.8em 1.5em;
+        border: 3px solid #000000;
+    }
+
+    
+
+    button{
+        width: auto;
+        font-size: 0.7rem;
+        padding:0.9em 0.6em;
+    }
+
+   
+
+    #spam{
+         display: none;   
+    }
+
+    li{
+        
+        padding:0.2rem;
+    }
+    ul{
+        padding: 0.7rem 2rem;
+        width: fit-content;
+    }
+    #img{
+        width: 40vw;
+        height: 30vh;
+        margin-bottom: 4rem;
+    }
+ } */
